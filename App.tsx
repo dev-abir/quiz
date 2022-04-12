@@ -6,7 +6,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Question, QuizScreen } from "./Screens/QuizScreen";
 import React, { useContext, useEffect, useState } from "react";
 import HomeScreen from "./Screens/HomeScreen";
-import { QuestionsContext } from "./Contexts";
+import { QuestionsContext } from "./contexts";
 import FinishScreen from "./Screens/FinishScreen";
 // import Icon from "@expo/vector-icons/MaterialIcons";
 import { MaterialIcons } from "@expo/vector-icons";

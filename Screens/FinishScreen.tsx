@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import React, { useContext } from "react";
-import { QuestionsContext } from "../Contexts";
+import { QuestionsContext } from "../contexts";
 import ConfettiCannon from "react-native-confetti-cannon";
 import * as Animatable from "react-native-animatable";
 import { Button } from "react-native-paper";
